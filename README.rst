@@ -17,6 +17,21 @@ Features
 * Build a simple API, allowing for the creation of chart exports or a 'save to dashboard' feature.
 
 
+Release Notes - 0.2.1
+---------------------
+
+* Fixed a JSON encoding bug that broke Python 2.6 compatibility.
+* Added a tox.ini and setup.py test support so I can test and prevent these sorts of
+  bug in the future.
+
+Release Notes - 0.2
+-------------------
+
+* Updated for Django 1.5 compatibility
+* Fixed an XSS vector in the Google Charts renderer
+* Updated to the most recent GViz API
+
+
 A fully-functional example report
 -----------------
 
@@ -72,4 +87,4 @@ To install django-report-tools simply use: ::
 
 Or alternatively: ::
 
-    $ easy_install requests
+    $ easy_install django-report-tools
